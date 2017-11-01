@@ -29,4 +29,6 @@ gulp repo-watch
 ~gulp-git~ will update your files automatically.
 
 This is only a start, though, since the main purpose of the setup is to allow students to use Github to code without the normal friction associated with coding in Wordpress.  Right now gulpfile.js has to be customized for every installation (to point to the student's repository instead of this central repo). something like a config.env file, or similar could instead be used to set the repository address parameters, and could be written by a bash script on install.  Alternatively, the upstream repo parameters could be read by ~gulp-git~ instead of hard-coded in the ~gulpfile~. In any case, some kind of mechanism needs to be developed for writing these repos via a ~students.csv~ or similar file, which contains information about student github handles. Thisi s still to be written. 
-* 
+* Test student changes
+committing just in order to be able to watch changes
+
